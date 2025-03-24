@@ -1,0 +1,5 @@
+mesa
+silla
+tele
+mochila
+compu
