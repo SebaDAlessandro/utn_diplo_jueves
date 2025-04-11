@@ -1,0 +1,39 @@
+/*
+font-family: "Roboto", sans-serif;
+font-family: "Unica One", sans-serif;
+
+*/
+
+
+.caja{
+    /*background: yellow;*/
+    background: rgb(6, 150, 227);
+    background: linear-gradient(171deg, rgba(6, 150, 227, 1) 12%, rgba(3, 82, 124, 1) 100%);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px 5px;
+    box-shadow: -20px 20px 5px black;
+    /*parámetro de la propiedad shadow
+    eje X - eje Y - desenfocado (blur) - color de sombra*/
+}
+
+.texto{
+    background: yellow;
+    column-count: 3;
+    column-gap: 50px;
+}
+
+.texto p{
+    margin: 0;
+}
+
+h2{
+    font-family: "Unica One", sans-serif;
+    color: red; 
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
