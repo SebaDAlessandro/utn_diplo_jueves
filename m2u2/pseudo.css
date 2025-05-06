@@ -2,11 +2,12 @@ div{
     width: 200px;
     height: 200px;
     background-color: yellow;
+    cursor: pointer;
 }
 
-/* div:hover {
+div:hover {
   background-color: #F89B4D;
-} */
+}
 
 /* :first-child y :last-child */
 /* :nth-child()  */
@@ -18,12 +19,12 @@ span{
 }
 
 
-/* span::after{
- content: 'despues';
+span::after{
+ content: ' despues';
  background-color: red;
-} */
-/* 
+}
+
 span::before{
- content: 'antes';
- background-color: blue;
-} */
+ content: 'antes ';
+ background-color: rgb(0, 255, 98);
+}

@@ -4,10 +4,14 @@
 	margin:0 auto;
 	width: 60%;
 	height: 500px;
+	position: relative; /*<-------------------- se agrega para que el ID verde lo tome como referencia*/
 	}
 
 #verde{
-	position:absolute;
+	position:absolute; 
+	/*solo hace caso al "padre" que tenga la propiedad de posicionamiento relativa
+	por defecto, es el body. Para que haga caso a su contenedor, se le debe colocar 
+	la propiedad de posicionamiento relativa tambien (ver flecha)*/
 	top: 0px;
 	left: 0px;
 	margin:0 auto;
