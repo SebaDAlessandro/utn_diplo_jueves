@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<ul>
+		<li class="item">Item 1</li>
+		<li class="item">Item 2</li>
+		<li class="item">Item 3</li>
+		<li class="item">Item 4</li>
+		<li class="item">Item 5</li>
+	</ul>
+
+	<script>
+		// todos los elementos con clase 'item' en un array
+		const items = document.getElementsByClassName('item');
+		// bucle for para recorrer el array
+		for (let i = 0; i < items.length; i++) {
+			// le cambio el estilo a cada elemento
+			items[i].style = 'color: blue; padding-left: ' + (10 * i) + 'px';
+		}    		
+	</script>
+
+</body>
+
+</html>
+<!-- da como resultado 
+ *Item 1 (con 0 pading ---- i = 0 * 10)
+ *  Item 2 (con 10 pading ---- i = 1 * 10)
+ *    Item 3 (con 20 pading ---- i = 2 * 10)
+ *      Item 4 (con 30 pading ---- i = 3 * 10)
+ *        Item 5 (con 40 pading) ---- i = 4 * 10 -->
